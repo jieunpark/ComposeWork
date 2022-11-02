@@ -10,6 +10,48 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeWork">
         <activity
+            android:name=".TutorialActivity4"
+            android:exported="false"
+            android:label="@string/title_activity_tutorial4"
+            android:theme="@style/Theme.ComposeWork">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TutorialActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_tutorial3"
+            android:theme="@style/Theme.ComposeWork">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TutorialActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_tutorial2"
+            android:theme="@style/Theme.ComposeWork">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TutorialActivity1"
+            android:exported="true"
+            android:label="@string/title_activity_tutorial1"
+            android:theme="@style/Theme.ComposeWork">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

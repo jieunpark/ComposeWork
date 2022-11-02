@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ComposeWork</string>
+    <string name="title_activity_tutorial1">TutorialActivity1</string>
+    <string name="title_activity_tutorial2">TutorialActivity2</string>
+    <string name="title_activity_tutorial3">TutorialActivity3</string>
+    <string name="title_activity_tutorial4">TutorialActivity4</string>
 </resources>
